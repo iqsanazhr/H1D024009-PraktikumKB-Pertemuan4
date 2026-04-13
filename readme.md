@@ -45,13 +45,15 @@ Akses folder `tugas` melalui terminal, kemudian jalankan:
 python tugas_sistem_pakar.py
 ```
 
-## 4. Hasil dan Tampilan
+## 4. Hasil dan Visualisasi Output
+Aplikasi ini menyertakan visualisasi hasil eksekusi program untuk memberikan gambaran antarmuka dan proses diagnosa secara nyata. Folder `output/` berisi tangkapan layar (screenshot) dari sistem pakar saat dijalankan.
 
-Aplikasi menampilkan daftar gejala yang dapat dipilih. Setelah menekan tombol **"Diagnosa Kerusakan"**, sistem akan memberikan hasil berdasarkan aturan yang telah didefinisikan.
-
-*Catatan: Pastikan gambar pendukung berada pada folder yang sesuai jika ingin menampilkan visualisasi.*
-
+### Tampilan Antarmuka Grafis (GUI)
+Pengguna dapat memilih gejala melalui checkbox yang tersedia secara interaktif.
 ![Tampilan GUI Sistem Pakar](output/gui.png)
+
+### Tampilan Hasil Diagnosa
+Setelah tombol ditekan, sistem akan memproses fakta yang ada dan menampilkan hasil diagnosa melalui jendela dialog.
 ![Tampilan Hasil Diagnosa](output/hasil.png)
 
 ---
